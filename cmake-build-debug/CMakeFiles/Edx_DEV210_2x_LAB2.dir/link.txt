@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Edx_DEV210_2x_LAB2.dir/main.cpp.o CMakeFiles/Edx_DEV210_2x_LAB2.dir/Teacher.cpp.o CMakeFiles/Edx_DEV210_2x_LAB2.dir/Student.cpp.o CMakeFiles/Edx_DEV210_2x_LAB2.dir/Person.cpp.o CMakeFiles/Edx_DEV210_2x_LAB2.dir/Course.cpp.o CMakeFiles/Edx_DEV210_2x_LAB2.dir/Degree.cpp.o  -o Edx_DEV210_2x_LAB2 
