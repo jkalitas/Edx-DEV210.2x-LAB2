@@ -12,12 +12,12 @@ using namespace std;
 
 class Person {
 private:
-    string _firstName
-    string _lastName;
-    int _age;
-    string _address;
-    string _city;
-    unsigned int _phoneNumber;
+    string _firstName{};
+    string _lastName{};
+    int _age{};
+    string _address{};
+    string _city{};
+    unsigned int _phoneNumber{};
 public:
     Person();
 

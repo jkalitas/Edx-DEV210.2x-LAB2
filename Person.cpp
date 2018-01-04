@@ -1,6 +1,11 @@
-//
-// Created by jsilva on 19-12-2017.
-//
+/**
+ * @header Person.h
+ *
+ * @brief This is the header file of Person.
+ *
+ * @author jmrs83@gmail.com 2018
+ *
+ * */
 
 #include "Person.h"
 
