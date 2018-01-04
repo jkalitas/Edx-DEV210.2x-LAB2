@@ -38,5 +38,14 @@ Course::~Course() {
 }
 
 void Course::toString(){
-    std::cout << "[COURSE NAME] " << _courseName <<std::endl;
+    std::cout << "\n[COURSE NAME]\n" << std::endl;
+    std::cout << _courseName << std::endl;
+
+    std::cout << "\n[STUDENTS]\n" << std::endl;
+    for(Student s : _students){
+        std::cout << s.getFirstName() << std::endl;
+    }
+    std::cout << "\n[TEACHER]\n"<< std::endl;
+    std::cout << _teacher.getFirstName() << std::endl;
+
 }

@@ -1,10 +1,11 @@
 #include <iostream>
-#include "Student.h"
 #include "Course.h"
-#include "Person.h"
-#include "Teacher.h"
 
-
+/**
+ * edX DEV210.2x LAB 2
+ *
+ * @return exit code.
+ */
 int main() {
 
     //Instantiate three Student objects called Student1, Student2, and Student3, provide values for the member variables.
@@ -32,10 +33,10 @@ int main() {
     //Using cout statements where appropriate, follow these instructions:
     //Output the name of the course
     course->toString();
-
+    wait();
     //Call the GradeStudent() method on the Teacher object
     Teacher1.GradeStudent();
 
-    wait();
+
     return 0;
 }

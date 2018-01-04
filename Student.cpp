@@ -11,10 +11,6 @@ Student::Student() : Person() {
 
 }
 
-Student::~Student() {
-
-}
-
 void Student::sitInClass() {
     std::cout << "Sitting in main theater" << std::endl;
 }

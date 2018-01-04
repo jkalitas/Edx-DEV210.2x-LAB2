@@ -13,14 +13,13 @@
 
 class Student : public Person{
 public:
-    virtual ~Student();
 
     Student();
 
     Student(const string &firstName, const string &lastName, int age, const string &address, const string &city,
             unsigned int phoneNumber);
 
-    void sitInClass() override;
+    void sitInClass();
 
 private:
 

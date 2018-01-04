@@ -19,10 +19,6 @@ Person::Person(const string &firstName, const string &lastName, int age, const s
 
 }
 
-Person::~Person() {
-
-}
-
 const string &Person::getFirstName() const {
     return _firstName;
 }

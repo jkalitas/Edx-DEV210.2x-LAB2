@@ -24,9 +24,7 @@ public:
     Person(const string &firstName, const string &lastName, int age, const string &address, const string &city,
            unsigned int phoneNumber);
 
-    ~Person();
-
-    virtual void sitInClass();
+    void sitInClass();
 
     const string &getFirstName() const;
 

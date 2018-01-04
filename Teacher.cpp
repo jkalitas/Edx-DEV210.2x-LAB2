@@ -11,9 +11,6 @@ Teacher::Teacher() : Person(){
 
 }
 
-Teacher::~Teacher() {
-
-}
 
 void Teacher::GradeStudent(){
     std::cout << "[STUDENTS GRADED] "  <<std::endl;
